@@ -1,0 +1,1 @@
+<a href="{{url('/outlet/id='.$order->outlet_id.'/print/order='.$order->id)}}" target="_blank" class="btn btn-primary btn-xs"> <i class="fa fa-eye"> </i> View</a>

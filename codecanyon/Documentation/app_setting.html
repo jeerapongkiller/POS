@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dashboard</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="plugins/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/app.js"></script>
+
+  <style media="screen">
+    .main-content {
+      padding: 17px 20px 20px;
+    }
+  </style>
+</head>
+
+<body class="app">
+
+
+  <!-- @App Content -->
+  <!-- =================================================== -->
+  <div>
+    <!-- #Left Sidebar ==================== -->
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <!-- ### $Sidebar Header ### -->
+        <div class="sidebar-logo">
+          <div class="peers ai-c fxw-nw">
+            <div class="peer peer-greed">
+              <a class='sidebar-link td-n' href="index.html" class="td-n">
+                <div class="peers ai-c fxw-nw">
+                  <div class="peer">
+                    <div class="logo">
+                      <img src="images/logo.png" alt="">
+                    </div>
+                  </div>
+                  <div class="peer peer-greed">
+                    <h5 class="lh-1 mB-0 logo-text">xPOS</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="peer">
+              <div class="mobile-toggle sidebar-toggle">
+                <a href="" class="td-n">
+                    <i class="ti-arrow-circle-left"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ### $Sidebar Menu ### -->
+        <ul class="sidebar-menu scrollable pos-r">
+          <li class="nav-item mT-30 active">
+            <a class='sidebar-link' href="index.html" default>
+                <span class="icon-holder">
+                  <i class="c-blue-500 ti-home"></i>
+                </span>
+                <span class="title">Getting Start</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="requirnment.html">
+                <span class="icon-holder">
+                  <i class="c-brown-500 ti-email"></i>
+                </span>
+                <span class="title">Requirnment</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="installation.html">
+                <span class="icon-holder">
+                  <i class="c-blue-500 ti-share"></i>
+                </span>
+                <span class="title">Installation</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="app_setting.html">
+                <span class="icon-holder">
+                  <i class="c-deep-orange-500 ti-calendar"></i>
+                </span>
+                <span class="title">App Setting</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="outlet.html">
+                <span class="icon-holder">
+                  <i class="c-deep-purple-500 ti-comment-alt"></i>
+                </span>
+                <span class="title">Outlet</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="user.html">
+                <span class="icon-holder">
+                  <i class="c-indigo-500 ti-bar-chart"></i>
+                </span>
+                <span class="title">User Registration</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="product.html">
+                <span class="icon-holder">
+                  <i class="c-light-blue-500 ti-pencil"></i>
+                </span>
+                <span class="title">Product / Item</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="pos.html">
+                <span class="icon-holder">
+                  <i class="c-light-blue-500 ti-pencil"></i>
+                </span>
+                <span class="title">Sells / POS</span>
+              </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="javascript:void(0);">
+                <span class="icon-holder">
+                    <i class="c-pink-500 ti-layout-list-thumb"></i>
+                </span>
+                <span class="title">Reports</span>
+                <span class="arrow">
+                  <i class="ti-angle-right"></i>
+                </span>
+              </a>
+            <ul class="dropdown-menu">
+              <li><a href="report_sell.html" class="sidebar-link">Sell Report</a></li>
+              <li><a href="report_payment.html" class="sidebar-link">Payment Report</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="tax.html">
+                <span class="icon-holder">
+                  <i class="c-light-blue-500 ti-pencil"></i>
+                </span>
+                <span class="title">TAX</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="sell_charge.html">
+                <span class="icon-holder">
+                  <i class="c-light-blue-500 ti-pencil"></i>
+                </span>
+                <span class="title">Sell Charge</span>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- #Main ============================ -->
+    <div class="page-container">
+      <!-- ### $Topbar ### -->
+
+
+      <!-- ### $App Screen Content ### -->
+      <main class='main-content bgc-grey-100'>
+        <div id='mainContent'>
+          <div class="row gap-20 masonry pos-r">
+            <div class="masonry-sizer col-md-12">
+              <div class="bd bgc-white">
+                <div class="layers">
+                  <div class="layer w-100 pX-20 pT-20">
+                    <h4 class="lh-1 mb-5">App Setting</h4>
+                    <p>You will find app setting during xPOS installation process. you can able to change setting after install. Both are almost same process</p>
+                    <h5 class="mt-4">Database Setup</h5>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="screenshots/db_setup.png" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-md-2">
+                        <h6>Note :</h6>
+                        <i>You can access database setup during installation period only</i>
+                      </div>
+                    </div>
+                    <ol class="mt-4 mb-5">
+                      <li> MySQL database setup (Only accessible during installation period)</li>
+                      <li><a href="#mail_setup">SMTP mail setup</a> (You can skip it or edit it any other time)</li>
+                      <li><a href="#admin_setup">Admin Account setting</a> (Only accessible during installation period a) </li>
+                      <li><a href="#local">Localization setting</a> i.e : Timezone, Currency Code and Symbol</li>
+                      <li><a href="#tax">Tax Setup</a></li>
+                      <li>Finish setup</li>
+                      <li>Enter you mysql host ip address (Default : 127.0.0.1)</li>
+                      <li>Enter your mysql port address (Default : 3306)</li>
+                      <li>Enter your mysql database name that you created for install xpos</li>
+                      <li>Enter your mysql user name</li>
+                      <li>Enter your mysql user password</li>
+                      <li>Enter your mysql user password again</li>
+                      <li>Click to submit so it will create requires tables automatically to your datbase</li>
+                    </ol>
+                    <p> <strong>Note:</strong> After sucessfuly setup your database you will see smtp mail setting page. or it will return an error. If your get any error please try to setup databse agian</p>
+
+                    <h5 class="mt-5" id="mail_setup">Mail Setup</h5>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="screenshots/mail_setup.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-md-2"></div>
+                    </div>
+                    <ol class="mt-4">
+                      <li>Enter your smtp mail host</li>
+                      <li>Enter your mail port</li>
+                      <li>Enter your email account</li>
+                      <li>Enter your email password</li>
+                      <li>Enter your email encryption type</li>
+                      <li>Click to save mail setting</li>
+                      <li>Click to skip this proces if you don't want to setup your mail</li>
+                      <li><a href="#admin_setup">Admin Account setting</a> (Only accessible during installation period a) </li>
+                      <li><a href="#local">Localization setting</a> i.e : Timezone, Currency Code and Symbol</li>
+                      <li><a href="#tax">Tax Setup</a></li>
+                    </ol>
+                    <h5 class="mt-5" id="admin_setup">Admin Account Setup</h5>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="screenshots/admin_setup.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-md-2"></div>
+                    </div>
+                    <ol class="mt-4">
+                      <li>Select your profile picture (Not Mandatory)</li>
+                      <li>Enter your name</li>
+                      <li>Enter your email address that will need for login</li>
+                      <li>Enter your login password</li>
+                      <li>Enter your login passowrd again</li>
+                      <li>Click to submit to create an admin.</li>
+                      <li><a href="#local">Localization setting</a> i.e : Timezone, Currency Code and Symbol</li>
+                      <li><a href="#tax">Tax Setup</a></li>
+                    </ol>
+                    <h5 class="mt-5" id="local">Localization Setup</h5>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="screenshots/local.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-md-2"></div>
+                    </div>
+                    <ol class="mt-4">
+                      <li>Click to find your timezone formate</li>
+                      <li>Enter your timezone with proper php timezone format</li>
+                      <li>Enter your currency symbol</li>
+                      <li>Click to save</li>
+                      <li><a href="#tax">Tax Setup</a></li>
+                    </ol>
+                    <h5 class="mt-5" id="tax">Tax Setup</h5>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="screenshots/tax.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-md-2"></div>
+                    </div>
+                    <ol class="mt-4">
+                      <li>Enter your TIN number</li>
+                      <li>Enter Tax %</li>
+                      <li>Click to save</li>
+                      <li><a href="#mail_setup">SMTP mail setup</a> (You can skip it or edit it any other time)</li>
+                      <li><a href="#admin_setup">Admin Account setting</a> (Only accessible during installation period a) </li>
+                      <li><a href="#local">Localization setting</a> i.e : Timezone, Currency Code and Symbol</li>
+                    </ol>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="mt-5 mb-5">.</div>
+    </div>
+  </div>
+</body>
+
+</html>

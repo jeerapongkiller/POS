@@ -1,0 +1,1 @@
+<img width="80px" height="80px" src="{{url($product->image != '' || $product->image != null ? $product->image : '/images/placeholder.png')}}" alt="">
